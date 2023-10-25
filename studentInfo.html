@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style2.css">
 </head>
+    <script>
+        document.getElementById('dialButton').addEventListener('click', function() {
+            var phoneNumber = "9496605217"; // Replace with the desired phone number
+            window.location.href = "tel:" + phoneNumber;
+        });
+    </script>
 <body>
     <div class="container text-center py-5">
        <a href="https://kishankalandoor.github.io/studentlogin.github.io/">
@@ -79,6 +85,10 @@
         <div class="container text-center">
             &copy; 2023 Kishan | NMAMIT | All rights reserved.
         </div>
+        <p>Any issues , click this button:</p>
+    <button id="dialButton">Contact</button>
+
+    </form>
     </footer>
 
 
